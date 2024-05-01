@@ -1,5 +1,8 @@
 package deo;
+import org.springframework.data.repository.CrudRepository;
 
-public interface dao {
+import jakarta.persistence.Id;
+
+public interface dao  extends CrudRepository<Id,Integer>{
     
 }
